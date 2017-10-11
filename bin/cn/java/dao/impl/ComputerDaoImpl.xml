@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!-- 
+	mapper是局部配置文件中的跟标签，类似于html中的html标签
+		namespace：代表唯一标识符，其值与某一个dao层类的路径保持一致
+ -->
+<mapper namespace="cn.java.dao.impl.ComputerDaoImpl">
+	<!-- 
+	在mybatis中查询语句必须放在select标签中；添加语句必须放在insert标签中；修改、删除等都必须放在各自对应的标签中
+	-->
+	<select id="selectAll" resultType="cn.java.entity.Computer">
+		SELECT * FROM `computers`;
+	</select>
+</mapper>
