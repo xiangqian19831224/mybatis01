@@ -26,7 +26,7 @@ PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
 				<!-- 配置用户名 -->
 				<property name="username" value="lxq"/>
 				<!-- 配置密码 -->
-				<property name="password" value="Lxq410221@5214"/>
+				<property name="password" value="lxq"/>
 			</dataSource>
 		</environment>
 	</environments>
